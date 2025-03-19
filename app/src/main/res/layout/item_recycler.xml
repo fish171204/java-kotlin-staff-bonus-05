@@ -1,0 +1,78 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:clickable="true" android:focusable="true" android:foreground="?attr/selectableItemBackground" app:cardBackgroundColor="@android:color/white" app:cardCornerRadius="8dp" app:cardElevation="2dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp">
+        <!--  Icon loại (CD/DVD)  -->
+        <ImageView
+            android:id="@+id/icon_type"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Loại"
+            android:src="@drawable/ic_cd"
+            tools:srcCompat="@drawable/ic_dvd" />
+        <!--  Nội dung  -->
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên nhân viên"
+                android:textColor="#212121"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView android:id="@+id/tv_MaNV" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Mã NV :" android:textColor="#757575" android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_gioi_tinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Giới tính :"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <TextView android:id="@+id/tv_ho_ten" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Họ tên :" android:textColor="#757575" android:textSize="14sp"/>
+            <TextView android:id="@+id/tv_ngay_sinh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Ngày sinh :" android:textColor="#757575" android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/tv_ngay_vao_lam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Ngày vào làm :"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_dien_thoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Điện thoại :"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_chuc_vu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Chức vụ :"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_phong_ban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Phòng Ban :"
+                android:textColor="#757575"
+                android:textSize="14sp" />
+
+            <TextView android:id="@+id/tv_luong" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="Lương :" android:textColor="#757575" android:textSize="14sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

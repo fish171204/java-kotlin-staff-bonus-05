@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BaiCongDiem05_002_NguyenDangKhoa</string>
+    <string-array name="chuc_vu_array">
+        <item>Nhân viên</item>
+        <item>Trưởng phòng</item>
+        <item>Giám đốc</item>
+    </string-array>
+
+    <string-array name="phong_ban_array">
+        <item>Kế toán</item>
+        <item>Nhân sự</item>
+        <item>Kinh doanh</item>
+    </string-array>
+</resources>
